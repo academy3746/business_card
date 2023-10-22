@@ -208,8 +208,8 @@ class _MainScreenState extends State<MainScreen> {
                             return;
                           }
 
-                          var prefs = await SharedPreferences.getInstance();
-                          prefs.setString(
+                          var savePrefs = await SharedPreferences.getInstance();
+                          savePrefs.setString(
                               "temporary", _introduceController.text);
 
                           setState(() {
