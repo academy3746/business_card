@@ -15,7 +15,7 @@ class MyCard extends StatelessWidget {
       title: 'Business Card',
       theme: ThemeData(
         primaryColor: Colors.blueAccent,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: false,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
