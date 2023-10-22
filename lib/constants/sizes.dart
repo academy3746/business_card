@@ -46,8 +46,14 @@ class Sizes {
   static const size80 = 80.0;
   static const size96 = 96.0;
   static const size100 = 100.0;
+  static const size150 = 150.0;
   static const size200 = 200.0;
+  static const size250 = 250.0;
   static const size300 = 300.0;
+  static const size350 = 350.0;
   static const size400 = 400.0;
+  static const size450 = 450.0;
   static const size500 = 500.0;
+  static const size550 = 550.0;
+  static const size600 = 600.0;
 }
