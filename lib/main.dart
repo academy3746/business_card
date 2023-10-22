@@ -14,7 +14,7 @@ class MyCard extends StatelessWidget {
     return MaterialApp(
       title: 'Business Card',
       theme: ThemeData(
-        primaryColor: Colors.blueAccent,
+        primaryColor: Colors.greenAccent,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: false,
         visualDensity: VisualDensity.adaptivePlatformDensity,

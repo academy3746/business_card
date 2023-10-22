@@ -26,8 +26,8 @@ class SplashScreen extends StatelessWidget {
             children: [
               Image.asset(
                 "assets/images/business-card.png",
-                width: Sizes.size96 + Sizes.size80 + Sizes.size4,
-                height: Sizes.size96 + Sizes.size80 + Sizes.size4,
+                width: Sizes.size100 + Sizes.size80,
+                height: Sizes.size100 + Sizes.size80,
               ),
               Gaps.v32,
               const Text(

@@ -22,7 +22,7 @@ class _MainScreenState extends State<MainScreen> {
         ),
         backgroundColor: Colors.white,
         title: const Text(
-          "살짝 맛이 가버린 개발자 DIO",
+          "인형 공학의 유일한 권위자, 라이덴쇼군",
           style: TextStyle(
             color: Colors.black,
             fontSize: Sizes.size14,
@@ -31,7 +31,31 @@ class _MainScreenState extends State<MainScreen> {
         ),
         elevation: 0,
       ),
-      body: Container(),
+      body: SingleChildScrollView(
+        physics: const ClampingScrollPhysics(),
+        child: Padding(
+          padding: const EdgeInsets.all(
+            Sizes.size24,
+          ),
+          child: Column(
+            children: [
+              SizedBox(
+                width: double.infinity,
+                height: Sizes.size200,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(
+                    Sizes.size10,
+                  ),
+                  child: Image.asset(
+                    "assets/images/shogun.jpeg",
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
